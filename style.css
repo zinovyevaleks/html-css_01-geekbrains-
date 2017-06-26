@@ -1,0 +1,206 @@
+body {
+	background-color:#f8f8f8;
+	padding:0;
+	margin:0;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 110px;
+	background-color: #99ffff;
+}
+
+.menu li {
+ 	display: inline;
+ }
+
+.header img {
+	margin-left: 50px;
+	margin-right: 260px;
+	float: left;
+}
+
+
+a {
+	color:#000;
+	font-size:14pt;
+	font-family: arial;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+/*цвет ссылок меню*/
+li a:hover {
+		color: blue;
+	  	text-decoration: underline;
+	  		}
+
+
+span h2 {
+	color:#000;
+	font-size:18px;
+	font-weight:400;
+	background-color: aqua;
+}
+
+
+.картинка {
+	float: left;
+
+}
+
+.button{text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ margin-left: 10px;
+ border:solid 5px #00a8eb; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#f7f7f7; 
+ background-color:#c73b3b; 
+ background-image: -moz-linear-gradient(top, #c73b3b 0%, #a51919 100%); 
+ background-image: -webkit-linear-gradient(top, #c73b3b 0%, #a51919 100%); 
+ background-image: -o-linear-gradient(top, #c73b3b 0%, #a51919 100%); 
+ background-image: -ms-linear-gradient(top, #c73b3b 0% ,#a51919 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a51919', endColorstr='#a51919',GradientType=0 ); 
+ background-image: linear-gradient(top, #c73b3b 0% ,#a51919 100%);   
+ -webkit-box-shadow:0px 0px 2px #ffffff, inset 0px 0px 1px #ff2121; 
+ -moz-box-shadow: 0px 0px 2px #ffffff,  inset 0px 0px 1px #ff2121;  
+ box-shadow:0px 0px 2px #ffffff, inset 0px 0px 1px #ff2121;  
+  
+   -webkit-transition: color 0.28s ease;
+ -moz-transition:  color 0.28s ease;
+ -o-transition:  color 0.28s ease;
+ transition:  color 0.28s ease;}.button:hover{
+ padding:11px 32px; 
+ border:solid 5px #00a8eb; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#f7f7f7; 
+ background-color:#c73b3b; 
+ background-image: -moz-linear-gradient(top, #c73b3b 0%, #a51919 100%); 
+ background-image: -webkit-linear-gradient(top, #c73b3b 0%, #a51919 100%); 
+ background-image: -o-linear-gradient(top, #c73b3b 0%, #a51919 100%); 
+ background-image: -ms-linear-gradient(top, #c73b3b 0% ,#a51919 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a51919', endColorstr='#a51919',GradientType=0 ); 
+ background-image: linear-gradient(top, #c73b3b 0% ,#a51919 100%);   
+ -webkit-box-shadow:9px 7px 4px #d49292, inset 0px 0px 1px #ff0000; 
+ -moz-box-shadow: 9px 7px 4px #d49292,  inset 0px 0px 1px #ff0000;  
+ box-shadow:9px 7px 4px #d49292, inset 0px 0px 1px #ff0000;  
+  
+ }.button:active{
+ padding:11px 32px; 
+ border:solid 5px #00a8eb; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#f7f7f7; 
+ background-color:#6647cf; 
+ background-image: -moz-linear-gradient(top, #6647cf 0%, #2c157a 100%); 
+ background-image: -webkit-linear-gradient(top, #6647cf 0%, #2c157a 100%); 
+ background-image: -o-linear-gradient(top, #6647cf 0%, #2c157a 100%); 
+ background-image: -ms-linear-gradient(top, #6647cf 0% ,#2c157a 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c157a', endColorstr='#2c157a',GradientType=0 ); 
+ background-image: linear-gradient(top, #6647cf 0% ,#2c157a 100%);   
+ -webkit-box-shadow:0px 0px 2px #ffffff, inset 0px 0px 1px #ff2121; 
+ -moz-box-shadow: 0px 0px 2px #ffffff,  inset 0px 0px 1px #ff2121;  
+ box-shadow:0px 0px 2px #ffffff, inset 0px 0px 1px #ff2121;  
+  
+ }
+
+.Характеристики {
+	clear: both;
+}
+
+.lowtext {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+	P:first-letter {
+		font-style: Arial;
+		font-size: 20px;
+	}
+}
+
+.hardtext {
+	color:#484343;
+	font-size:16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.char{
+	font-style:oblique;
+	color:#333;
+	text-decoration: underline;
+}
+
+/*Форма на старнице контактов*/
+input [type="email"], input [type="text"] {
+	width:300px;
+	height:20px;
+	color:#BA55D3;
+	font-style:italic;
+	font-size:14pt;
+}
+
+input[type="email"]:focus {
+	background-color: #483D8B;
+}
+
+input[type="text"], textarea {
+	text-transform: capitalize;
+}
+
+
+/*Таблица характеристик*/
+table {
+	border: 1px solid #000;
+	width: 400px;
+	height: 200px;
+}
+
+td {
+	border: 1px solid #000;
+	text-align: left;
+	vertical-align: top;
+}
+
+
+
+img {
+	border: 5px solid black;
+	/*background: #191970;*/
+}
+
+img:hover {
+	border: 5px solid white;
+}
+.footer{
+	text-align:right;
+	padding:5px 5px 0 0;
+	background-color: #aaa;
+	clear: both;
+}
+
+/*Каталог*/
+
+.item {
+	float: left;
+	padding: 10px;
+}
